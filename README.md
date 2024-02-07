@@ -10,6 +10,7 @@ pragma solidity ^0.8.0;
 contract ExampleContract 
 
 {
+    
     uint256 public num;
     
     function exampleFunction(uint256 _num) public {
