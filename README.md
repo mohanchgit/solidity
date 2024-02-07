@@ -6,14 +6,23 @@ Learning the Solidity programming language.
 In Solidity programming, you can use if and else statements to control the flow of your code based on certain conditions
 
 pragma solidity ^0.8.0;
-contract ExampleContract {
+
+contract ExampleContract 
+{
     uint256 public num;
+    
     function exampleFunction(uint256 _num) public {
+    
         if (_num > 10) {
+        
             num = _num;
+            
         } else {
+        
             num = 0;
+            
         }
+        
     }
 }
 
