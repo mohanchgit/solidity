@@ -8,7 +8,6 @@ In Solidity programming, you can use if and else statements to control the flow 
 pragma solidity ^0.8.0;
 contract ExampleContract {
     uint256 public num;
-
     function exampleFunction(uint256 _num) public {
         if (_num > 10) {
             num = _num;
